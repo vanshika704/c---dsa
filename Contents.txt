@@ -56,7 +56,7 @@ Deque: similar to vetor and lists
 deque <int > dq ;
 
 
-Stack: Lifo : last in first out rule .
+Stack: Lifo : last in first out rule . the time complexity for stack is o(1)
 stack<int> st;
 st.push(1);
 st.push(2);
