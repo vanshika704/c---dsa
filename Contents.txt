@@ -13,8 +13,8 @@ v.insert(v.begin(), 5); {it puts 5 at the beginning of the vector }
 v.insert(v.end(), 5); {it puts 5 at the end of the vector }
 vector <int >v(5,24); it creates 5 instances of 24;
 vector <int>v1(v); now , this will copy the contents of v into v1
- vector <int> :: iterator it = v.begin()
- v.begin gives the memory address , to acess the value at the memory address , you need to put an * with the element
+vector <int> :: iterator it = v.begin()
+v.begin gives the memory address , to acess the value at the memory address , you need to put an * with the element
  example: cout<< *(it)<< " ";
 
 vector <int>:: iterator it =v.end(); gives memory address of the position next to the last element
