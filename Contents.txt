@@ -54,3 +54,13 @@ lists : list <int> ls;
 
 Deque: similar to vetor and lists 
 deque <int > dq ;
+
+
+Stack: Lifo : last in first out rule .
+stack<int> st;
+st.push(1);
+st.push(2);
+st.pop(); removes 2.
+st.top(); after removal of two the topmost will be one 
+rest of the things are same , insert , emplace and all ..
+
