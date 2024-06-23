@@ -31,3 +31,11 @@ v.erase(v.begin(),v.end()); this removes all the elements of the structure
 v.clear(); this also removes all the elements of the structure
 v.erase(v.begin, v.begin()+3) this will remove the first and second element why so? the element to be removed , the index should be given of the next number .
 
+Insert :
+same pattern, will insert at the desired value .
+v.insert(v.begin(), 5); inserts 5 at the beginning
+v.insert(v.end(), 5); inserts 5 at the end
+v.insert(v.begin(), 5, 5); inserts 5 five times at the beginning
+v.insert(v.begin(), v1.begin(), v1.end()); inserts all the elements of v1
+vector <int , int > v(2, 100); gives (100,100 )
+v.insert (v.begin()+1, 2  ,10) gives where , how many and what to insert.
