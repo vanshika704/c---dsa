@@ -81,3 +81,9 @@ pq.top(); after removal of three the topmost will be two
 
 minimum heap:
 priority_queue<int , vector<int> , greater<int>> pq ;
+
+Maps: 
+ works on unique key value pair 
+ map<int , string > m ;
+ m[1] = "one"; one i s key and "one is value"
+ m[2] = "two";
