@@ -25,3 +25,9 @@ short hand method;
 for(auto it = v.begin();it !=v.end();it++){
     cout<< *it << " " ;
 }
+Erasing :
+v.erase(v.begin ()); this removes the first element of the structure
+v.erase(v.begin(),v.end()); this removes all the elements of the structure
+v.clear(); this also removes all the elements of the structure
+v.erase(v.begin, v.begin()+3) this will remove the first and second element why so? the element to be removed , the index should be given of the next number .
+
