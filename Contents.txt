@@ -1,0 +1,19 @@
+Stl stands for :Standard Template Library
+Sets: Sets basically are based upon two things, unique and sorted .
+ie they have unique entries and all the entries are stored in a sorted manner.
+set<int> st;
+
+1 unordered_set : the set which is not sorted but is unique .
+MultiSet: these can have multiple same values but they are in sorted manner.
+
+Vector : vector <int> v;
+v.push_back(10); {it puts 10 in it }
+v.emplace_back(2); {it also puts 2 in it , however is faster}
+v.insert(v.begin(), 5); {it puts 5 at the beginning of the vector }
+v.insert(v.end(), 5); {it puts 5 at the end of the vector }
+vector <int >v(5,24); it creates 5 instances of 24;
+vector <int>v1(v); now , this will copy the contents of v into v1
+ vector <int> :: iterator it = v.begin()
+ v.begin gives the memory address , to acess the value at the memory address , you need to put an * with the element
+ example: cout<< *(it)<< " ";
+
