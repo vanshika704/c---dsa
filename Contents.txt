@@ -64,3 +64,17 @@ st.pop(); removes 2.
 st.top(); after removal of two the topmost will be one 
 rest of the things are same , insert , emplace and all ..
 
+Queue:  First in first Out :
+queue<int> q ;
+q.push(1);
+q.push(2);
+q.pop(); removes 1
+q.front(); after removal of one the frontmost will be two
+
+Priority Queue :
+priority_queue<int> pq ;
+pq.push(1);
+pq.push(2);
+pq.push(3);
+pq.pop(); removes 3
+pq.top(); after removal of three the topmost will be two
