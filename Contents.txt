@@ -17,3 +17,11 @@ vector <int>v1(v); now , this will copy the contents of v into v1
  v.begin gives the memory address , to acess the value at the memory address , you need to put an * with the element
  example: cout<< *(it)<< " ";
 
+vector <int>:: iterator it =v.end(); gives memory address of the position next to the last element
+for (vector<int ::iterator it = v.begin (); it!=v.end (); it++){
+    cout<< *it << " " ;
+};
+short hand method;
+for(auto it = v.begin();it !=v.end();it++){
+    cout<< *it << " " ;
+}
