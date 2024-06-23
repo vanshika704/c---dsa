@@ -71,7 +71,7 @@ q.push(2);
 q.pop(); removes 1
 q.front(); after removal of one the frontmost will be two
 
-Priority Queue :
+Priority Queue : highest number on top
 priority_queue<int> pq ;
 pq.push(1);
 pq.push(2);
