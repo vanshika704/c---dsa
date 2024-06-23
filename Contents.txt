@@ -50,3 +50,7 @@ p1.second = p2.second
 p1 = p2
 p1 = make_pair(1,2)
 
+lists : list <int> ls;
+
+Deque: similar to vetor and lists 
+deque <int > dq ;
